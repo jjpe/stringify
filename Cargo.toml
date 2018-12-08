@@ -7,3 +7,4 @@ repository = "https://github.com/jjpe/stringify"
 edition = "2018"
 
 [dependencies]
+ioe = "0.3.0"
