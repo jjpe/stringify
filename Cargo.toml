@@ -6,5 +6,3 @@ description = "A crate that provides Debug-like output, but with more control ov
 repository = "https://github.com/jjpe/stringify"
 
 [dependencies]
-failure = "0.1"
-failure_derive = "0.1"

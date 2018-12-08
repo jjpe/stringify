@@ -1,8 +1,5 @@
 /// Indentation-aware printing.
 
-extern crate failure;
-extern crate failure_derive;
-
 use std::collections::HashMap;
 use std::hash::Hash;
 use std::ops;
