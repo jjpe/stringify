@@ -394,6 +394,18 @@ impl Stringify for Newline {
 }
 
 
+#[macro_export]
+macro_rules! btmap {
+    ($($key:expr => $value:expr)*) => {{
+        use std::collections::BTreeMap;
+        #[allow(unused_mut)] let mut btmap = BTreeMap::new();
+        $(
+            btmap.insert($key, $value);
+        )*
+        btmap
+    }};
+}
+
 
 
 // #[cfg(test)]
