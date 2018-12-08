@@ -4,5 +4,6 @@ version = "0.1.0"
 authors = ["Joey Ezechiels <joey.ezechiels@gmail.com>"]
 description = "A crate that provides Debug-like output, but with more control over indentation."
 repository = "https://github.com/jjpe/stringify"
+edition = "2018"
 
 [dependencies]
